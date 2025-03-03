@@ -2,12 +2,12 @@
   "stats": {
     "suites": 5,
     "tests": 10,
-    "passes": 8,
+    "passes": 10,
     "pending": 0,
-    "failures": 2,
-    "start": "2025-03-03T20:00:37.840Z",
-    "end": "2025-03-03T20:00:38.035Z",
-    "duration": 195
+    "failures": 0,
+    "start": "2025-03-03T20:04:34.132Z",
+    "end": "2025-03-03T20:04:34.323Z",
+    "duration": 191
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -71,55 +71,18 @@
       "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome, ' to contain 'J'",
-        "showDiff": false,
-        "actual": "Welcome, ",
-        "stack": "AssertionError: expected 'Welcome, ' to contain 'J'\n    at Context.<anonymous> (test/indexTest.js:50:37)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
+      "err": {}
     },
     {
       "title": "ends with an exclamation point",
       "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected ' ' to equal '!'",
-        "showDiff": true,
-        "actual": " ",
-        "expected": "!",
-        "stack": "AssertionError: expected ' ' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:55:43)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "contains the first initial of the name stored in the 'currentUser' variable",
-      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'Welcome, ' to contain 'J'",
-        "showDiff": false,
-        "actual": "Welcome, ",
-        "stack": "AssertionError: expected 'Welcome, ' to contain 'J'\n    at Context.<anonymous> (test/indexTest.js:50:37)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
-    },
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected ' ' to equal '!'",
-        "showDiff": true,
-        "actual": " ",
-        "expected": "!",
-        "stack": "AssertionError: expected ' ' to equal '!'\n    at Context.<anonymous> (test/indexTest.js:55:43)\n    at process.processImmediate (node:internal/timers:491:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is defined",
@@ -131,7 +94,7 @@
     {
       "title": "contains \"Welcome to Flatbook, \"",
       "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -174,6 +137,20 @@
       "title": "contains \"Welcome, \"",
       "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
       "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the first initial of the name stored in the 'currentUser' variable",
+      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js shortGreeting ends with an exclamation point",
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
